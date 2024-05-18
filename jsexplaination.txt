@@ -1,0 +1,71 @@
+Goal: Play The Rock Paper scissors Game 5 Times. 
+      Display the Winner after Each game. 
+      After 5 Games, Display the Total Score. 
+
+// Logic: 
+
+1. Declare `2` Global Variable's for keeping the score of player and computer.
+2. Call The Function playRound() to play the game. 
+3. Function playRound():
+        1. Calls a Function to get the user's choice.
+        2. If the user input is wrong, it Calls the playRound() Function again.
+        3. Then it call's another function to get the computer choice.
+        4. Then it declare's a local Variable and call the function to decide the winner and pass the
+           user and computer choice.
+        5. The `decide` the winner function will return who won the game or it's a tie.
+        6. Then the 1st if statement check's if it's tie and if it's a tie, it will again call the 
+           playRound() and it'll play the game again. 
+        7. Then the second statement checks if the decideTheWinner function returned computer as the winner
+           and if it's, it will Display the winner for that game and update the computer score counter of the global variabel.
+        8. The 3rd if statement check's if the human is winner and it will display the result and update 
+           the global variable of the human score counter.
+
+4. Function getComputerChoice():
+        1. we declare a variabel and call random() method and multiply it 
+           by 3 to get the number choice between 0 and 2 and we round the 
+           values using floor() method.
+             if 0: Rock
+             if 1: Paper
+             if 2: scissors
+5. Function getHumanChoice():
+        1. Prompt user input.
+        2. Change The user input to lowercase.
+        3. if rock:return it.
+           if paper: return it.
+           if scissors: return it.
+           if not: return error.
+
+6. decideTheWinner(a, b):
+        1. computer and human choices get's passed as an argument.
+        2. if : tie
+             return: tie
+            if human:rock
+              if computer scissors
+                  return: human won
+              else: return computer won
+
+            if human:paper
+              if computer rock
+                  return: human won
+              else: return computer won
+
+            if human:scissors
+              if computer paper
+                  return: human won
+              else: return computer won
+
+// To display the final winner
+1. if human and computer score is 5:
+       if computer is greater than human score
+                display the computer as winner with score count.
+        else
+                 display the player as winner with score count.
+
+Le's run the program and see how it works: 
+1. playRound() get's called.
+2. User input's rock.
+3. computer input's scissors.
+4. decide the winner return's human.
+5. if statement inside the playRound() update's the score counter and display the winner.
+6. Global variabel get's updated.
+7. If played 5 times, it display the total Score.

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header > img {
+    width: 150px;
+}
+.header > p {
+    font-size: 50px;
+    font-weight: 900;
+    color: yellow;
+}
+.header {
+    display: flex;
+    gap: 16px;
+    padding: 25px;
+    justify-content: space-between;
+    /* border: 12px solid black; */
+}
+
+.middle {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 25px 750px; */
+    border-radius: 10px;
+    /* background-color: yellow; */
+    /* padding: 25px; */
+}
+.middle > p:nth-child(1) {
+    background: linear-gradient(to right, #f0f0f0 0%, #e6e6e6 50%, #f0f0f0 100%);
+    padding: 25px;
+    font-size: 75px;
+    margin: 0;
+    padding-left: 100px;
+    border-radius: 0px 20px 20px 0;
+}
+.middle > p:nth-child(3) {
+    background: linear-gradient(to right, #f0f0f0 0%, #e6e6e6 50%, #f0f0f0 100%);
+
+    padding: 25px;
+    font-size: 75px;
+    margin: 0;
+    padding-right: 100px;
+    border-radius: 20px 0px 0px 20px;
+}
+.middle > p:nth-child(2) {
+    font-size: 75px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 25px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.img-section {
+    /* border: 12px solid black; */
+    display: flex;
+    gap: 400px;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+.img-section > img {
+    max-width: 250px;
+    flex-grow: 0;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid black; */
+    padding-left: 100px;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+.footer > button {
+    font-size: 40px;
+    padding: 25px;
+    border-radius: 25px;
+    flex: 1;
+    background-color: transparent;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    height: 100vh;
+}
+.rps1:hover {
+    background-image: url(img/Screenshot\ from\ 2024-05-26\ 15-26-50.png);
+    background-size: cover;
+}
+.rps2:hover {
+    background-image: url(img/screeshotyellow.png);
+    background-size: cover;
+}
+.rps3:hover {
+    background-image: url(img/screeshotyellow.png);
+    background-size: cover;
+}
+.game-over {
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+}
+
+  

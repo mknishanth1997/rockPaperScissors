@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
 </head>
 <body>
-    
+        <div class="container">
+            <div class="header">
+                <img src="img/rock-paper-scissors.png" alt="rock-paper-scissors">
+                <p class="logo-text">Rock-Paper-Scissors</p>
+            </div>
+            <div class="middle">
+                <p class="score-my-side">0</p>
+                <p class="win-or-not"></p>
+                <p class="score-pc-side">0</p>
+            </div>
+            <div class="img-section">
+                <img src="img/paper.pn" alt="" class="user-side">
+                <img src="img/stone.pg" alt="" class="pc-side">
+            </div>
+            <div class="footer">
+                <button class="rps rps1" value="rock">Rock</button>
+                <button class="rps rps2" value="paper">Paper</button>
+                <button class="rps rps3" value="scissors">Sciccors</button>
+            </div>
+        </div>
 </body>
 </html>

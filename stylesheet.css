@@ -96,14 +96,17 @@ body {
 }
 .rps1:hover {
     background-image: url(img/Screenshot\ from\ 2024-05-26\ 15-26-50.png);
+    background-color: yellow;
     background-size: cover;
 }
 .rps2:hover {
     background-image: url(img/screeshotyellow.png);
+    background-color: yellow;
     background-size: cover;
 }
 .rps3:hover {
     background-image: url(img/screeshotyellow.png);
+    background-color: yellow;
     background-size: cover;
 }
 .game-over {
